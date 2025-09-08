@@ -94,12 +94,13 @@ class _HeaderState extends State<Header> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadiusGeometry.circular(15),
                   ),
+
                   child: TextFormField(
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      labelText: "What would you like to have ?",
+                      hintText: "What would you like to have ?",
                       suffixIcon: Icon(Icons.search),
-                      contentPadding: EdgeInsets.only(left: 20),
+                      contentPadding: EdgeInsets.only(left: 20, top: 14),
                     ),
                   ),
                 ),
